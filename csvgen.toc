@@ -1,0 +1,7 @@
+## Interface: 80000
+## Author: Emptyrivers
+## Version: dev
+## Title: CSVGen
+## Notes: generates csv dumps for tank theorycraft purposes
+
+csvgen.lua
