@@ -40,7 +40,10 @@ local function changeGear()
 
 end
 local function npcid(unit)
-
+   local guid = UnitGUID(unit)
+   if not guid then return end
+   if guid:find("Player") then return 'p' end
+   return (select(6,strsplit('-',guid)))
 end
 
 local function generateLine()
